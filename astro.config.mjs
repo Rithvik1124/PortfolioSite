@@ -10,6 +10,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  site: "https://rithvik1124.github.io",
+  base: "/PortfolioSite",
 
   integrations: [mdx(), sitemap()]
 });
