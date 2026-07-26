@@ -1,0 +1,139 @@
+---
+
+---
+
+<header class="hero">
+
+    <div class="overlay">
+        <h1>Hey! I'm Rithvik</h1>
+        <p>Cybersecurity • Rust • Linux • Detection Engineering</p>
+    </div>
+	<div class="me-container">
+
+    <div class="profile-pic">
+    <img src="/me.jpg" alt="me.png">
+
+    <div class="das-me">das me</div>
+</div>
+
+</div>
+</header>
+
+<style>
+
+.hero{
+    height:100vh;
+    width:100%;
+
+    background-image:url("/header.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay{
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.45);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+h1{
+
+    font-size:5rem;
+
+    color:white;
+
+    margin:0;
+
+    text-shadow:
+        4px 4px 0 black;
+
+}
+
+p{
+
+    margin-top:20px;
+
+    color:white;
+
+    font-size:1.3rem;
+
+}
+.me-container{
+
+    position:absolute;
+
+    bottom:60px;
+    right:80px;
+
+}
+
+.profile-pic{
+
+    width:220px;
+    height:220px;
+
+    border-radius:50%;
+
+    overflow:hidden;
+
+    border:8px solid white;
+
+    transform:rotate(-8deg);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.35);
+
+    background:white;
+
+}
+
+.profile-pic img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+}
+.profile-pic{
+    position: relative;
+
+    width:220px;
+    height:220px;
+
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.das-me{
+    position:absolute;
+
+    top: calc(100% + 15px);   /* 15px below the circle */
+    left:50%;
+
+    transform:translateX(-50%) rotate(-6deg);
+
+    font-family:"Permanent Marker", cursive;
+    font-size:2rem;
+
+    color:#ffffff;
+
+    white-space:nowrap;
+}
+
+
+
+</style>
